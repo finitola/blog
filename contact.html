@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+    <title>My Blog Space</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <!--load all Font Awesome styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+            <div class="logo">
+                <a href="/">
+                    <img src="./img/logo.svg" alt="My Blog Space">
+                        <h1 >My Blog Space</h1>
+                </a>
+            </div>
+            <nav>
+                    <a href="/">Home</a>
+                    <a href="./news.html">News</a>
+                    <a href="./about.html">About</a>
+                    <a class="active" href="./contact.html">Contact</a>
+            </nav>
+            <form class="search">
+                <input type="text" placeholder="Search..">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+            <div class="social">
+                <a href="/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+    </header>
+    <div class="container-contact">
+        <h2>Contact US</h2>
+        <div class="contact-info">
+            <div class="contact-image-box">
+                <img src="./img/no-image.jpg" alt="What is Lorem Ipsum?">
+            </div>
+        </div>
+    <div class="contact">
+        <form action="/">
+            <div class="contact-form">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email Address" required>
+              <input type="text" name="Subject" placeholder="Subject" required>
+              <textarea id="Message" name="Message" placeholder="Your Message" rows="13" required></textarea>
+              <input type="submit" value="Submit">
+            </div>
+        </form>
+      </div>
+    </div>
+    <button onclick="topFunction()" id="top" title="Go to top">Top</button>
+    <footer>
+        <p>All Right Reserved. Copyright &copy; - 2022. <span> By Finito La</span></p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
